@@ -1,0 +1,67 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.leftside {
+  width: 30%;
+  background: radial-gradient(
+      12.04% 28.41% at 52.64% 24.47%,
+      rgba(78, 26, 69, 0.2) 0%,
+      rgba(69, 20, 43, 0.2) 14.29%,
+      rgba(69, 20, 43, 0.2) 28.57%,
+      rgba(61, 14, 18, 0.2) 42.86%,
+      rgba(61, 13, 15, 0.2) 57.14%,
+      rgba(61, 13, 15, 0.2) 71.43%,
+      rgba(61, 13, 15, 0.2) 85.71%,
+      rgba(60, 13, 13, 0.2) 100%
+    ),
+    linear-gradient(
+      169deg,
+      rgba(4, 31, 27, 0.98) 14.76%,
+      #380c4a 25.62%,
+      #3b0e46 29.25%,
+      #3d0f42 33.37%,
+      #441436 40.15%,
+      #33254e 46.18%,
+      #2b2d59 52.47%,
+      #292654 57.59%,
+      #271f4f 62.33%,
+      #240d37 74.06%,
+      #22052d 88.22%,
+      #22052d 125.39%,
+      #22052d 154.65%,
+      #22052d 154.67%
+    );
+}
+
+.rightside {
+  width: 70%;
+}
+
+.frontcard {
+  width: 450px;
+  height: 250px;
+  position: fixed;
+  top: 80px;
+  left: 100px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.backcard {
+  width: 450px;
+  height: 250px;
+  background-color: rgba(217, 217, 217, 1);
+  position: fixed;
+  bottom: 80px;
+  left: 250px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

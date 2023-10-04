@@ -1,0 +1,43 @@
+form {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 25%;
+  left: 55%;
+  overflow: hidden;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.form-div2 {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  margin-bottom: 20px;
+}
+
+label {
+  color: rgba(64, 64, 64, 1);
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+button {
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.error-label {
+  color: red;
+  margin-left: 5px;
+}
